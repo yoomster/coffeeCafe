@@ -1,18 +1,21 @@
 body {
-  background-image:
-  font-family:sans-serif;
+  font-family: sans-serif;
+  padding: 20px;
+}
 
-    }
+h1 {
+  font-size: 40px;
+}
 
-h1, h2{
-  font-family: Impact ;
+h2 {
+  font-size: 30px;
 }
 
 .established {
-  font-style:italic;
+  font-style: italic;
 }
-  
-  h1, h2, p {
+
+h1, h2, p {
   text-align: center;
 }
 
@@ -25,8 +28,25 @@ h1, h2{
   max-width: 500px;
 }
 
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1, h2 {
+  font-family: Impact, serif;
+}
+
 .item p {
   display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
 }
 
 .flavor, .dessert {
@@ -37,4 +57,8 @@ h1, h2{
 .price {
   text-align: right;
   width: 25%;
+}
+
+footer {
+  font-size: 14px;
 }
